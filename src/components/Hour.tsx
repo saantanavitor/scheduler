@@ -12,7 +12,8 @@ interface HourProps {
 export const Hour = ({ hour, events, boxes }: HourProps) => {
   const hourStr = `${`${hour}`.padStart(2, "0")}:00`;
   return (
-    <td className="bg-slate-800 flex flex-row border-b-2">
+    // <td className="bg-slate-800 flex flex-row border-b-2">
+    <>
       <HourCell label={hourStr} />
       {boxes.map((box) => {
         return (
@@ -24,6 +25,7 @@ export const Hour = ({ hour, events, boxes }: HourProps) => {
           />
         );
       })}
-    </td>
+    </>
+    // </td>
   );
 };

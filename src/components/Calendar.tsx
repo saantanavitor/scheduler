@@ -52,10 +52,10 @@ const EVENTS: Event[] = [
     box: 6,
   },
   {
-    date: new Date("2023-12-25T15:12:00"),
+    date: new Date("2023-12-25T08:20:00"),
     label: "Evento 5",
     kindOfEvent: "ENTRADA",
-    box: 3,
+    box: 5,
   },
   {
     date: new Date("2023-12-25T15:20:00"),
